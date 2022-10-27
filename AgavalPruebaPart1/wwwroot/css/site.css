@@ -16,3 +16,11 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.titulo{
+    text-align:center;
+}
+
+.fondo {
+    background-color: #f3f8f6;
+}

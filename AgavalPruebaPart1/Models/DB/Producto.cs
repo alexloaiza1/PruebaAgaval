@@ -10,6 +10,6 @@ namespace AgavalPruebaPart1.Models.DB
         public string? Nombre { get; set; }
         public string? Descripcion { get; set; }
 
-        public virtual Cliente IdclienteNavigation { get; set; } = null!;
+        public virtual Cliente oClientess { get; set; } = null!;
     }
 }

@@ -66,7 +66,7 @@ namespace AgavalPruebaPart1.Models.DB
                     .HasMaxLength(255)
                     .IsUnicode(false);
 
-                entity.HasOne(d => d.IdtipoNavigation)
+                entity.HasOne(d => d.oTipoPersona)
                     .WithMany(p => p.Clientes)
                     .HasForeignKey(d => d.Idtipo)
                     .OnDelete(DeleteBehavior.ClientSetNull)
@@ -118,7 +118,7 @@ namespace AgavalPruebaPart1.Models.DB
                     .HasMaxLength(255)
                     .IsUnicode(false);
 
-                entity.HasOne(d => d.IdclienteNavigation)
+                entity.HasOne(d => d.oClientess)
                     .WithMany(p => p.Productos)
                     .HasForeignKey(d => d.Idcliente)
                     .OnDelete(DeleteBehavior.ClientSetNull)
@@ -185,7 +185,7 @@ namespace AgavalPruebaPart1.Models.DB
 
                 entity.Property(e => e.Idcliente).HasColumnName("IDCliente");
 
-                entity.HasOne(d => d.IdclienteNavigation)
+                entity.HasOne(d => d.oCliente)
                     .WithMany(p => p.Secciones)
                     .HasForeignKey(d => d.Idcliente)
                     .OnDelete(DeleteBehavior.ClientSetNull)

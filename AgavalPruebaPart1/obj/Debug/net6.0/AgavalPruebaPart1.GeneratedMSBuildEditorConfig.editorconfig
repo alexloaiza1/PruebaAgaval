@@ -8,57 +8,81 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AgavalPruebaPart1
 build_property.RootNamespace = AgavalPruebaPart1
-build_property.ProjectDir = C:\Users\alex2\source\repos\AgavalPruebaPart1\AgavalPruebaPart1\
+build_property.ProjectDir = C:\Users\alex2\source\repos\PruebaAgaval\AgavalPruebaPart1\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\alex2\source\repos\AgavalPruebaPart1\AgavalPruebaPart1
+build_property.MSBuildProjectDirectory = C:\Users\alex2\source\repos\PruebaAgaval\AgavalPruebaPart1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/alex2/source/repos/AgavalPruebaPart1/AgavalPruebaPart1/Views/Home/Index.cshtml]
+[C:/Users/alex2/source/repos/PruebaAgaval/AgavalPruebaPart1/Views/Clientes/Cliente_Detalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ2xpZW50ZV9EZXRhbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alex2/source/repos/PruebaAgaval/AgavalPruebaPart1/Views/Clientes/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWxpbWluYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alex2/source/repos/PruebaAgaval/AgavalPruebaPart1/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alex2/source/repos/PruebaAgaval/AgavalPruebaPart1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alex2/source/repos/AgavalPruebaPart1/AgavalPruebaPart1/Views/Home/Privacy.cshtml]
+[C:/Users/alex2/source/repos/PruebaAgaval/AgavalPruebaPart1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alex2/source/repos/AgavalPruebaPart1/AgavalPruebaPart1/Views/Proveedores/Create.cshtml]
+[C:/Users/alex2/source/repos/PruebaAgaval/AgavalPruebaPart1/Views/Productoes/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9lc1xFbGltaW5hci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alex2/source/repos/PruebaAgaval/AgavalPruebaPart1/Views/Productoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alex2/source/repos/PruebaAgaval/AgavalPruebaPart1/Views/Productoes/Producto_Detalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9lc1xQcm9kdWN0b19EZXRhbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alex2/source/repos/PruebaAgaval/AgavalPruebaPart1/Views/Proveedores/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alex2/source/repos/AgavalPruebaPart1/AgavalPruebaPart1/Views/Proveedores/Delete.cshtml]
+[C:/Users/alex2/source/repos/PruebaAgaval/AgavalPruebaPart1/Views/Proveedores/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alex2/source/repos/AgavalPruebaPart1/AgavalPruebaPart1/Views/Proveedores/Details.cshtml]
+[C:/Users/alex2/source/repos/PruebaAgaval/AgavalPruebaPart1/Views/Proveedores/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alex2/source/repos/AgavalPruebaPart1/AgavalPruebaPart1/Views/Proveedores/Edit.cshtml]
+[C:/Users/alex2/source/repos/PruebaAgaval/AgavalPruebaPart1/Views/Proveedores/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alex2/source/repos/AgavalPruebaPart1/AgavalPruebaPart1/Views/Proveedores/Index.cshtml]
+[C:/Users/alex2/source/repos/PruebaAgaval/AgavalPruebaPart1/Views/Proveedores/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alex2/source/repos/AgavalPruebaPart1/AgavalPruebaPart1/Views/Shared/Error.cshtml]
+[C:/Users/alex2/source/repos/PruebaAgaval/AgavalPruebaPart1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alex2/source/repos/AgavalPruebaPart1/AgavalPruebaPart1/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/alex2/source/repos/PruebaAgaval/AgavalPruebaPart1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alex2/source/repos/AgavalPruebaPart1/AgavalPruebaPart1/Views/_ViewImports.cshtml]
+[C:/Users/alex2/source/repos/PruebaAgaval/AgavalPruebaPart1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alex2/source/repos/AgavalPruebaPart1/AgavalPruebaPart1/Views/_ViewStart.cshtml]
+[C:/Users/alex2/source/repos/PruebaAgaval/AgavalPruebaPart1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/alex2/source/repos/AgavalPruebaPart1/AgavalPruebaPart1/Views/Shared/_Layout.cshtml]
+[C:/Users/alex2/source/repos/PruebaAgaval/AgavalPruebaPart1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-prxzg9uwot

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KDyZoQfINTB8zE+20ZUNcP3OIlHb4vrZ/WF9Bpocik7YRKOtiNcjZXYCLZFdcAeJEIQuKeH50CtjQQ2stXqYYQ==",
+  "dgSpecHash": "MWjglaoktS8tcT5+FKJwmgLmIH5//SiGdnhMpioM7bjqycKlFdYyGrp9eRZOWA2S8DD1LA3IDB5Mp3eTHXJ6+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alex2\\source\\repos\\AgavalPruebaPart1\\AgavalPruebaPart1\\AgavalPruebaPart1.csproj",
+  "projectFilePath": "C:\\Users\\alex2\\source\\repos\\PruebaAgaval\\AgavalPruebaPart1\\AgavalPruebaPart1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alex2\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\alex2\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
