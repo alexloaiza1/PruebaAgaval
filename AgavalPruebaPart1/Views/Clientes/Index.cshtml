@@ -1,0 +1,97 @@
+﻿@model List<AgavalPruebaPart1.Models.DB.Cliente>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+
+<h1 class="titulo bg-light">Gestion de Clientes</h1>
+<hr />
+
+<div class="card ">
+    <div class="card-header">
+        <h5>Lista de Clientes</h5>
+    </div>
+
+    <div class="card-body" >
+        <a class="btn btn-success btn-sm" asp-action="Cliente_Detalle" asp-controller="Clientes" asp-route-idCliente="0">Crear Nuevo</a>
+        <hr />
+        <table class="table table table-striped">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Identificacion</th>
+                    <th>Telefono</th>
+                    <th>Direccion</th>
+                    <th>Email</th>
+                    <th>Tipo Persona</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    @if(item.oTipoPersona.Idtipo==1){
+                        <tr style="background-color:#FCE700">
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Nombre)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Identificacion)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Telefono)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Direccion)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Email)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.oTipoPersona.Nombre)
+                            </td>
+                            <td>
+                                <a class="btn btn-primary btn-sm" asp-action="Cliente_Detalle" asp-controller="Clientes" asp-route-idCliente="@item.Idcliente">Editar  </a>
+                                <a class="btn btn-danger btn-sm " asp-action="Eliminar" asp-controller="Clientes" asp-route-idCliente="@item.Idcliente"> Eliminar</a>
+                            </td>
+                        </tr>
+                    }else{
+                        <tr style="background-color:#82CD47">
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Nombre)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Identificacion)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Telefono)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Direccion)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Email)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.oTipoPersona.Nombre)
+                            </td>
+                            <td>
+                                <a class="btn btn-primary btn-sm" asp-action="Cliente_Detalle" asp-controller="Clientes" asp-route-idCliente="@item.Idcliente">Editar  </a>
+                                <a class="btn btn-danger btn-sm " asp-action="Eliminar" asp-controller="Clientes" asp-route-idCliente="@item.Idcliente"> Eliminar</a>
+                            </td>
+                        </tr>
+                    }
+                   
+                }
+            </tbody>
+        </table>
+
+
+    </div>
+
+   
+
+</div>

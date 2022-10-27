@@ -9,6 +9,6 @@ namespace AgavalPruebaPart1.Models.DB
         public int Idcliente { get; set; }
         public string? Descripcion { get; set; }
 
-        public virtual Cliente IdclienteNavigation { get; set; } = null!;
+        public virtual Cliente oCliente { get; set; } = null!;
     }
 }
