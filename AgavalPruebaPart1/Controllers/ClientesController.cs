@@ -15,6 +15,8 @@ namespace AgavalPruebaPart1.Controllers
     public class ClientesController : Controller
     {
         private readonly ServiciosAgavalContext _context;
+            
+
 
         public ClientesController(ServiciosAgavalContext context)
         {
@@ -85,14 +87,18 @@ namespace AgavalPruebaPart1.Controllers
         [HttpPost]
         public IActionResult Eliminar(Cliente oCliente)
         {
+
+            
             _context.Clientes.Remove(oCliente);
             try
             {
+                
                 _context.SaveChanges();
+                
             }
             catch (Exception)
             {
-
+                
                 return RedirectToAction("Index", "Clientes"); ;
             }
             

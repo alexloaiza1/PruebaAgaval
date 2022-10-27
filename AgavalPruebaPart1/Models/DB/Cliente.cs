@@ -5,6 +5,8 @@ namespace AgavalPruebaPart1.Models.DB
 {
     public partial class Cliente
     {
+
+        
         public Cliente()
         {
             Productos = new HashSet<Producto>();
@@ -19,8 +21,13 @@ namespace AgavalPruebaPart1.Models.DB
         public string? Direccion { get; set; }
         public string? Email { get; set; }
 
-        public virtual Tipospersona oTipoPersona { get; set; } = null!;
+        
+
+
+    public virtual Tipospersona oTipoPersona { get; set; } = null!;
         public virtual ICollection<Producto> Productos { get; set; }
         public virtual ICollection<Seccione> Secciones { get; set; }
+
+       
     }
 }

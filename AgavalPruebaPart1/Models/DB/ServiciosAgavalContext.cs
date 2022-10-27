@@ -118,7 +118,7 @@ namespace AgavalPruebaPart1.Models.DB
                     .HasMaxLength(255)
                     .IsUnicode(false);
 
-                entity.HasOne(d => d.oCliente)
+                entity.HasOne(d => d.oClientess)
                     .WithMany(p => p.Productos)
                     .HasForeignKey(d => d.Idcliente)
                     .OnDelete(DeleteBehavior.ClientSetNull)

@@ -1,0 +1,60 @@
+﻿@model List<AgavalPruebaPart1.Models.DB.Producto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="titulo bg-light">Gestion de Productos</h1>
+<hr />
+
+<div class="card ">
+    <div class="card-header">
+        <h5>Lista de Productos</h5>
+    </div>
+
+    <div class="card-body">
+        <a class="btn btn-success btn-sm" asp-action="Producto_Detalle" asp-controller="Productoes" asp-route-idCliente="0">Crear Nuevo</a>
+        <hr />
+        <table class="table table table-striped">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Descripcion</th>
+                    <th>Cliente</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    
+                    
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Nombre)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Descripcion)
+                            </td>
+                           
+                            <td>
+                                @Html.DisplayFor(modelItem => item.oClientess.Nombre)
+                            </td>
+                            <td>
+                                <a class="btn btn-primary btn-sm" asp-action="Producto_Detalle" asp-controller="Productoes" asp-route-idProducto="@item.Idproducto">Editar  </a>
+                                <a class="btn btn-danger btn-sm " asp-action="Eliminar" asp-controller="Productoes" asp-route-idProducto="@item.Idproducto"> Eliminar</a>
+                            </td>
+                        </tr>
+                    }
+               
+                
+            </tbody>
+        </table>
+
+
+    </div>
+
+
+
+</div>

@@ -1,0 +1,47 @@
+﻿@model AgavalPruebaPart1.Models.DB.Producto;
+
+@{
+    ViewData["Title"] = "Eliminar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Eliminar</h1>
+
+<h3 class="text-danger"> ¿Esta seguro de eliminar el producto?</h3>
+<hr />
+
+
+<div class="row">
+    <div class="col-sm-4">
+
+        <form asp-action="Eliminar" asp-controller="Productoes" method="post">
+            <input type="hidden" asp-for="Idproducto" />
+
+            <div class="mb-2">
+                <label class="form-label" asp-for="Nombre">Nombre</label>
+                <input class="form-control form-control-sm" asp-for="Nombre" type="text" disabled />
+            </div>
+
+            <div class="mb-2">
+                <label class="form-label" asp-for="Descripcion">Descripcion</label>
+                <input class="form-control form-control-sm" asp-for="Descripcion" type="text" disabled/>
+            </div>
+
+            <div class="mb-2">
+                <label class="form-label" asp-for="Idcliente">Cliente asociado</label>
+                <input class="form-control form-control-sm" asp-for="oClientess.Nombre" type="text" disabled />
+            </div>
+
+            <div class="mb-2">
+
+                <button class="btn btn-danger btn-sm w-25" type="submit" >Eliminar</button>
+
+                <a class="btn btn-dark btn-sm" asp-action="Index" asp-controller="Productoes">Volver</a>
+
+           </div>
+
+        </form>
+
+    </div>
+
+ </div>

@@ -6,6 +6,6 @@
     "\\AgavalPruebaPart1\\Views",
     "\\AgavalPruebaPart1\\Views\\Shared"
   ],
-  "SelectedNode": "\\AgavalPruebaPart1\\Views\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\AgavalPruebaPart1\\Controllers\\ClientesController.cs",
   "PreviewInSolutionExplorer": false
 }
